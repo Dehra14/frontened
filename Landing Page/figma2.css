@@ -1,0 +1,52 @@
+.light{
+    padding-left: 50px;
+    padding-bottom: 20px;
+    padding-top: 70px;
+}
+body{
+    font-family: sans-serroif;
+}
+.blue{
+    color:rgb(76, 76, 196);
+    padding-top: 5px;
+    width: 450px;
+    line-height:22px;
+}
+h2{
+    font-size: 25px ;
+    line-height: 5px;
+    color: rgb(13, 13, 53);
+}
+.first{
+    display: flex;
+    gap: 20px;
+}
+
+.title{
+     text-align: left;
+    padding-left: 50px;
+    justify-content: space-between;
+   color: rgb(13, 13, 53);
+}
+.sub{
+    color: grey;
+    font-size: 18px;
+    width: 200px;
+}
+.right{
+ text-align: left;
+ padding-left:500px;
+ line-height: 5px;
+ width: 20px;
+ 
+}
+.last{
+    background-color: rgb(139, 168, 230);
+    text-align: center;
+    justify-content: center;
+
+}
+.price{
+    text-align: center;
+    
+}

@@ -1,0 +1,233 @@
+*{
+  padding: none;
+  margin: none;
+  box-sizing: border-box;
+ 
+}
+
+body {
+  background-image: url();
+  font-family: sans-serif;
+  width: 100vw;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  text-align: left;
+  padding-left: 28px;
+  justify-content: space-between;
+  gap: 10px;
+  color: rgb(76, 76, 196);
+  
+}
+.heading {
+  word-spacing: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  position: fixed;
+  flex-direction: row;
+}
+button {
+  padding: 10px 5px;
+  text-align: center;
+  border: none;
+  font-size: 17px;
+  font-weight: 300px;
+  width: 180px;
+  height: 40px;
+  font-weight: bold;
+}
+
+.buy {
+  background-color: rgb(40, 40, 129);
+  color: white;
+}
+.ending {
+  gap: 10px;
+  justify-content: space-between;
+  text-align: center;
+  padding: 50px;
+  background-color: rgb(200, 200, 219);
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  color: rgb(13, 13, 53);
+  /* width: 360px; */
+}
+
+.learn {
+  background-color: transparent;
+  border-color: rgb(34, 31, 31);
+  border-style: solid;
+}
+h4 {
+  text-align: center;
+  padding-top: 0px;
+  padding-bottom: 55px;
+  color: rgb(40, 40, 129);
+}
+
+.introduce {
+  padding: 50px;
+  line-height: 25px;
+  display: flex;
+  width: 100vw;
+}
+
+.introduce .hero-text  h2{
+  color: rgb(40, 40, 129);
+  line-height: 120%;
+  font-size: 50px;
+}
+
+.imParent {
+  height: 100px;
+  width: 50%;
+}
+.hero-text {
+  /* height: 100px; */
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.introduce .imParent img{
+  height: 500px;
+  width: 100%;
+}
+.section2{
+  display: flex;
+  padding: 10px;
+ 
+}
+.T{
+  display: flex;
+ justify-content: left;
+ width: 30px;
+}
+.imParent2{
+  align-items: right ;
+  padding-left: 50%;
+}
+
+.title{
+  align-items: left;
+
+}
+
+.section3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 100px;
+  padding: 100px;
+}
+
+.section3 .light  h2{
+  color: rgb(40, 40, 129);
+  line-height: 120%;
+  font-size: 50px;
+}
+.purchase{
+  text-align: center;
+  padding: 50px;
+  
+}
+
+.h2{
+  text-align: center;
+  padding: 50px;
+}
+.button1{
+  display: flex;
+ gap: 30px;
+}
+
+.price{
+  padding-top: 35px;
+  color: rgb(40, 40, 129);
+}
+
+.p{
+  font-size: 20px;
+}
+
+.money{
+  font-size: 50px;
+  color: rgb(40, 40, 129); 
+}
+
+footer {
+  background-color: #eef2ff;
+  padding: 20px 10%;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+   align-items: center;
+   justify-content: space-between;
+   row-gap: 20px;
+   font-size: 1em;
+}  
+.foot{
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 5px solid #3b82f6; /* Blue line */
+}
+
+.copyright {
+  font-size: 14px;
+  color: #666;
+}
+
+.footer-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.purchase-btn {
+  background-color: #1e293b;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  /* border-radius: 5px; */
+  font-size: 14px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.nav-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #666;
+  font-size: 14px;
+}
+
+.social-icons a {
+  margin: 0 8px;
+  color: #666;
+  font-size: 16px;
+}
+
+.social-icons a:hover,
+.nav-links a:hover,
+.purchase-btn:hover {
+ opacity: 0.7;
+}
+
+.footerbody {
+  background-color: rgb(181, 181, 212);
+}
